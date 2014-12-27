@@ -32,9 +32,9 @@ module.exports = function(RED) {
     var pintable = {
     // Physical : WiringPi
     // In A - T/H Sensor1
-    // In A - T/H Sensor2
-    // In A - T/H Sensor3
-    // In A - Solid moisture  Sensor4
+    // In B - T/H Sensor2
+    // In C - T/H Sensor3
+    // In D - Solid moisture  S4
     // Amber LED - Lamp1/500 Wt
     // Buzzer - Pump
     // Red LED - Lamp2/250 Wt
