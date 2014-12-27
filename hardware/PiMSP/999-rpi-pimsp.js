@@ -31,6 +31,18 @@ module.exports = function(RED) {
     // Map physical P1 pins to Gordon's Wiring-Pi Pins (as they should be V1/V2 tolerant)
     var pintable = {
     // Physical : WiringPi
+    // In A - T/H Sensor1
+    // In A - T/H Sensor2
+    // In A - T/H Sensor3
+    // In A - Solid moisture  Sensor4
+    // Amber LED - Lamp1/500 Wt
+    // Buzzer - Pump
+    // Red LED - Lamp2/250 Wt
+    // Out E - Air heater/ 1000 Wt
+    // Out F - Soil heater
+    // Out G - Cooler IN
+    // Out H - Cooler Out
+    // Green LED - Lamp3/250 Wt
             "Amber LED":"0",
             "Buzzer ":"1",
             "Red LED":"2",
