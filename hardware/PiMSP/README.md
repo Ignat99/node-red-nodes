@@ -1,25 +1,25 @@
 node-red-node-pibrella
 ======================
-A <a href="http://nodered.org" target="_new">Node-RED</a> node to control a <a href="http://pibrealla.com/" target="_new">Pibrella</a> add-on board for a Raspberry-Pi.
+A <a href="http://nodered.org" target="_new">Node-RED</a> node to control a <a href="http://msp.com/" target="_new">PiMSP</a> add-on board for a Raspberry-Pi.
 
 Install
 -------
 
 Run the following command in the root directory of your Node-RED install
 
-    npm install node-red-node-pibrella
+    npm install node-red-node-pimsp
 
 
 Pre-reqs
 --------
 
-Requires the WiringPi gpio command to be installed in order to work. See the <a href="http://wiringpi.com" target="new">WiringPi site</a> for details on how to do this.
+Requires the gpio command to be installed in order to work. See the <a href="http://wiringpi.com" target="new">WiringPi site</a> for details on how to do this.
 
 
 Usage
 -----
 
-A pair of input and output Node-RED nodes for the Raspberry Pi Pibrella from Pimoroni.
+A pair of input and output Node-RED nodes for the Raspberry Pi MSP.
 
 ###Output
 
